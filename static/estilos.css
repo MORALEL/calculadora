@@ -1,0 +1,103 @@
+/* estilos.css */
+body {
+    background-color: #f4f4f4;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    padding-top: 50px;
+}
+
+form {
+    display: inline-block;
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+input[type="text"] {
+    width: 250px;
+    padding: 15px;
+    font-size: 24px;
+    text-align: right;
+    margin-bottom: 20px;
+    background-color: #e0f7fa;
+    border: 2px solid #90caf9;
+    border-radius: 5px;
+    color: #333;
+}
+
+button {
+    width: 60px;
+    height: 60px;
+    font-size: 22px;
+    margin: 5px;
+    border: none;
+    border-radius: 8px;
+    background-color: #eceff1;
+    color: #333;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+}
+
+button:hover {
+    background-color: #cfd8dc;
+}
+
+/* Botones de operaciones especiales */
+button[name="nmas"], button[name="nmenos"]
+ {
+    background-color: #f8e801;
+    color: white;
+}
+
+button[name="nmas"]:hover {
+    background-color: #d1bf21;
+}
+
+button[name="nmenos"]:hover {
+    background-color: #d1bf21;
+}
+
+button[name="nigual"] {
+    background-color: #81c784;
+    color: white;
+}
+
+button[name="nigual"]:hover {
+    background-color: #66bb6a;
+}
+
+button[name="nclear"] {
+    background-color: #ef9a9a;
+    color: white;
+}
+
+button[name="nclear"]:hover {
+    background-color: #e57373;
+}
+
+button[name="nmulti"], button[name="ndiv"] {
+    background-color: #1d7fdb;
+    color: white;
+}
+
+button[name="nmulti"]:hover {
+    background-color: #147db9;
+}
+
+button[name="ndiv"]:hover {
+    background-color: #147db9;
+}
+
+button[name="nraiz"], button[name="npotencia"] {
+    background-color: #db1dcb;
+    color: white;
+}
+
+button[name="nraiz"]:hover {
+    background-color: #a015a0;
+}
+
+button[name="npotencia"]:hover {
+    background-color: #a015a0;
+}
