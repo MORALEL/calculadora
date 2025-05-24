@@ -68,12 +68,12 @@ button[name="nigual"]:hover {
 }
 
 button[name="nclear"] {
-    background-color: #ef9a9a;
+    background-color: #cf4343;
     color: white;
 }
 
 button[name="nclear"]:hover {
-    background-color: #e57373;
+    background-color: #720e0e;
 }
 
 button[name="nmulti"], button[name="ndiv"] {
@@ -82,11 +82,11 @@ button[name="nmulti"], button[name="ndiv"] {
 }
 
 button[name="nmulti"]:hover {
-    background-color: #147db9;
+    background-color: #0f5985;
 }
 
 button[name="ndiv"]:hover {
-    background-color: #147db9;
+    background-color: #0f5985;
 }
 
 button[name="nraiz"], button[name="npotencia"] {
